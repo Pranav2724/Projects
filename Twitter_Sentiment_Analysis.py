@@ -35,7 +35,7 @@ stop = stop + punc
 
 
 
-df = pd.read_csv('Twiiter_train.csv')
+df = pd.read_csv('training_twitter_x_y_train.csv')
 
 X_raw = df['text']
 Y_raw = df['airline_sentiment']
