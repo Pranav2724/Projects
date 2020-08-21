@@ -9,7 +9,7 @@ from keras.models import Sequential
 from keras.layers import Dense, Conv2D, Flatten, Dropout,BatchNormalization,MaxPooling2D
 from keras.regularizers import *
 
-cifar10.data_path = "C:\\Users\\prankhur\\OneDrive - Qualcomm\\Desktop\Python codes\\Cifar10"
+cifar10.data_path = "<The location of files on your system>"
 cifar10.maybe_download_and_extract()
 class_names = cifar10.load_class_names()
 images_train, cls_train, labels_train = cifar10.load_training_data()
