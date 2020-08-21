@@ -1,6 +1,7 @@
 #Dataset - http://archive.ics.uci.edu/ml/datasets/Twenty+Newsgroups
-
+#Classifying News Articles according to the topic being talked about
 #text classification
+
 import numpy as np
 import pandas as pd
 from sklearn import model_selection
