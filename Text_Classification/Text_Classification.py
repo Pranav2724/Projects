@@ -1,3 +1,5 @@
+#Dataset - http://archive.ics.uci.edu/ml/datasets/Twenty+Newsgroups
+
 #text classification
 import numpy as np
 import pandas as pd
