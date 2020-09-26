@@ -1,0 +1,4 @@
+In This project, I'm attempting to design a simple language translator using Recurrent Neural Networks. 
+Our input would be a file which contains French - English language pairs which we'll use to train our RNN.
+Using this model, we'll try to translate a few  French test sentences to English.
+The accuracy of the model will be calculated using the BLEU score
